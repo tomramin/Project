@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-layout text-center wrap>
+    <v-layout>
       <v-form v-model="valid">
         <v-container>
           <v-row>
