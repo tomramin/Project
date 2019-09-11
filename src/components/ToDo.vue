@@ -55,6 +55,9 @@ export default {
         content: this.content
       })
       console.log(JSON.stringify(this.todoList))
+    },
+    delTodo (i) {
+      this.todoList.splice(i, 1)
     }
   }
 }
